@@ -1,0 +1,16 @@
+{
+  "name": "dockerhub-puller",
+  "version": "1.0.0",
+  "description": "Check the repositories described on the config.js file looking for updates",
+  "main": "checker.js",
+  "dependencies": {
+    "docker-hub-api": "^0.5.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "MIT"
+}
